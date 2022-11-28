@@ -40,5 +40,5 @@ do
 void Test(ILanguageAnalyzer languageAnalyzer)
 {
     string? input = Console.ReadLine();
-    Console.WriteLine(languageAnalyzer.Analyze(input));
+    Console.WriteLine(languageAnalyzer.Analyze(input)+"\n");
 }

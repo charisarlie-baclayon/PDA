@@ -6,6 +6,10 @@
 
         public bool Analyze(string input)
         {
+            if(input.Length == 1)
+            {
+                return false;
+            }
             for (int i = 0; i < input.Length; i++)
             {
                 var current = input[i];
