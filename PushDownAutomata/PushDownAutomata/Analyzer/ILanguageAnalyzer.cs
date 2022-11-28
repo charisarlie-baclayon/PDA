@@ -7,7 +7,7 @@
 		/// </summary>
 		/// <param name="input"> Input to be analyzed. </param>
 		/// <returns> True or False </returns>
-		bool analyze(string input);
+		bool Analyze(string input);
 	}
 }
 
